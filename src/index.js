@@ -1,5 +1,5 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
-import {getDatabase,ref,push}   from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js';
+import {getDatabase,ref,push,onValue}   from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js';
 
 const  appSetting = {
     databaseURL:"https://playground-a98ab-default-rtdb.europe-west1.firebasedatabase.app"
@@ -21,10 +21,28 @@ addButtonEl.addEventListener("click",function (){
 
     push(shoppingListDB,inputValue)
     clearInputField()
-    appendItemToShoppingListEL(inputValue)
+
 
 })
 
+
+onValue (shoppingListDB,function (snapshot){
+let itemArray =Object.values(snapshot.val())
+
+    clearShoppingListEL()
+
+
+   for (let i=0;i<itemArray.length;i++){
+
+       appendItemToShoppingListEL(itemArray[i])
+   }
+
+})
+
+
+function  clearShoppingListEL(){
+    shoppingListEl.innerHTML=""
+}
 
 function clearInputField(){
     inputFieldEl.value=""
