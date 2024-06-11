@@ -7,6 +7,7 @@
     <list default="true" id="18283155-97c1-4c1f-9072-f52f1ff72124" name="Changes" comment="create input field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mobile\src" />
+      <recent name="D:\mobile\.idea" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1717997906265</updated>
       <workItem from="1717997907283" duration="8392000" />
-      <workItem from="1718013494104" duration="10022000" />
+      <workItem from="1718013494104" duration="10190000" />
+      <workItem from="1718090043629" duration="2958000" />
     </task>
     <task id="LOCAL-00001" summary="create input field">
       <option name="closed" value="true" />
